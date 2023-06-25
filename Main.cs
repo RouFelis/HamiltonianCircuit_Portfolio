@@ -10,7 +10,7 @@ public class Main : MonoBehaviour
     public int Number = 32;
 
     // 탐색 경로 및 탐색 현황 등을 저장할 이차원 배열 생성
-    int[,] Map;
+    private int[,] Map;
 
     // ==================================================================================================== Properties
 
